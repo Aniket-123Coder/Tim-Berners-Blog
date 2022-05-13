@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    padding-top:20px;
+    text-align: center;
+}
+.profile {
+    width:175px;
+    margin-bottom:50px;
+    border-radius:50%; 
+    
+}
+#welcome {
+    text-align:center;
+    background:linear-gradient(#62E0B4 50%,#61EEF0 50%);
+    z-index:9;
+    font-family: 'Playfair Display', serif;
+}
+#bio {
+    font-size:20px;
+    
+}
+.menu {
+list-style: none;
+font-family: sans-serif;
+position:absolute;
+top:10px;
+right: 30px;
+cursor: pointer;
+z-index: 10;
+}
+.links {
+    float:left;
+    color:darkblue;
+    
+    padding-top:6;
+    padding-left: 4;
+    padding-right: 3;
+}
+.links:hover{
+    background-color: cornflowerblue;
+}
